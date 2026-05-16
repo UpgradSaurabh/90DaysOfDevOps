@@ -1,5 +1,7 @@
 # 90 Days DevOps Learning Plan
 
+##Updated Day 01 learning plan.
+
 ## Current Level
 
 I am currently working as a DevOps/CI-CD support engineer and have experience with GitLab pipelines, SonarQube integration, troubleshooting build failures, and deployment-related tasks.
