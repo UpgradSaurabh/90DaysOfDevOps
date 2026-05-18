@@ -6,29 +6,28 @@
 
 
 
-| Command | Usage |
+| Command Usage |
 
-|---|---|
 
-| ps -ef | View all running processes |
+\- ps -ef | View all running processes |
 
-| top | Monitor CPU and memory usage |
+\- top | Monitor CPU and memory usage |
 
-| htop | Interactive process monitoring |
+\- htop | Interactive process monitoring |
 
-| kill -9 PID | Force stop a process |
+\- kill -9 PID | Force stop a process |
 
-| pkill process-name | Kill process using name |
+\- pkill process-name | Kill process using name |
 
-| pgrep process-name | Find process ID |
+\- pgrep process-name | Find process ID |
 
-| nice -n 10 command | Start process with priority |
+\- nice -n 10 command | Start process with priority |
 
-| renice PID | Change running process priority |
+\- renice PID | Change running process priority |
 
-| jobs | Show background jobs |
+\- jobs | Show background jobs |
 
-| free -h | Check memory usage |
+\- free -h | Check memory usage |
 
 
 
@@ -40,39 +39,39 @@
 
 
 
-| Command | Usage |
+| Command Usage |
 
-|---|---|
 
-| ls -ltr | List files with details |
 
-| cd directory | Change directory |
+\- ls -ltr | List files with details |
 
-| pwd | Show current path |
+\-cd directory | Change directory |
 
-| mkdir folder-name | Create new directory |
+\- pwd | Show current path |
 
-| rm -rf folder | Remove files/directories |
+\- mkdir folder-name | Create new directory |
 
-| cp source destination | Copy files |
+\- rm -rf folder | Remove files/directories |
 
-| mv source destination | Move or rename files |
+\- cp source destination | Copy files |
 
-| find / -name file | Search files |
+\- mv source destination | Move or rename files |
 
-| du -sh \* | Check directory sizes |
+\- find / -name file | Search files |
 
-| df -h | Check disk usage |
+\- du -sh \* | Check directory sizes |
 
-| chmod 755 file | Change file permissions |
+\- df -h | Check disk usage |
 
-| chown user:user file | Change ownership |
+\- chmod 755 file | Change file permissions |
 
-| tail -f logfile | Monitor logs live |
+\- chown user:user file | Change ownership |
 
-| grep keyword file | Search text in files |
+\- tail -f logfile | Monitor logs live |
 
-| vi filename | Edit files |
+\- grep keyword file | Search text in files |
+
+\- vi filename | Edit files |
 
 
 
@@ -84,29 +83,28 @@
 
 
 
-| Command | Usage |
+| Command Usage |
 
-|---|---|
 
-| ping google.com | Check connectivity |
+\- ping google.com | Check connectivity |
 
-| ip addr | View IP configuration |
+\- ip addr | View IP configuration |
 
-| netstat -tulnp | Check listening ports |
+\- netstat -tulnp | Check listening ports |
 
-| ss -tulnp | View active connections |
+\- ss -tulnp | View active connections |
 
-| curl URL | Test API or URL response |
+\- curl URL | Test API or URL response |
 
-| dig domain.com | DNS lookup |
+\- dig domain.com | DNS lookup |
 
-| traceroute google.com | Trace network path |
+\- traceroute google.com | Trace network path |
 
-| nslookup domain.com | Query DNS information |
+\- nslookup domain.com | Query DNS information |
 
-| telnet host port | Test port connectivity |
+\- telnet host port | Test port connectivity |
 
-| wget URL | Download files |
+\- wget URL | Download files |
 
 
 
@@ -118,25 +116,25 @@
 
 
 
-| Command | Usage |
+| Command Usage |
 
-|---|---|
 
-| systemctl status service | Check service status |
 
-| systemctl restart service | Restart service |
+\- systemctl status service | Check service status |
 
-| systemctl enable service | Enable service on boot |
+\- systemctl restart service | Restart service |
 
-| journalctl -xe | View detailed system logs |
+\- systemctl enable service | Enable service on boot |
 
-| uname -a | Show system information |
+\- journalctl -xe | View detailed system logs |
 
-| uptime | Check system uptime |
+\- uname -a | Show system information |
 
-| whoami | Current logged-in user |
+\- uptime | Check system uptime |
 
-| hostnamectl | Show hostname details |
+\- whoami | Current logged-in user |
+
+\- hostnamectl | Show hostname details |
 
 
 
